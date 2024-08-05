@@ -10,31 +10,31 @@
 						<div class="nav-item d-flex flex-column align-items-center text-center column-height">
 							<a class="nav-link" rel="nofollow" alt="Home" href="https://www.ataskasino.com/"
 								target="_blank">
-								<img class="nav-icon img1" src="/public/image/home_btn.webp" alt="Home"></a>
+								<img class="nav-icon img1" src="/image/home_btn.webp" alt="Home"></a>
 						</div>
 
 						<div class="nav-item d-flex flex-column align-items-center text-center column-height">
 							<a class="nav-link" rel="nofollow" href="https://www.ataskasino.com/en/sign-up/"
 								target="_blank">
-								<img class="nav-icon img2" src="/public/image/history_btn.webp" alt="History"></a>
+								<img class="nav-icon img2" src="/image/history_btn.webp" alt="History"></a>
 						</div>
 
 						<div class="nav-item d-flex flex-column align-items-center text-center column-height">
 							<a class="nav-link" rel="nofollow" alt="bonus" href="https://www.ataskasino.com/en/sign-up/"
 								target="_blank">
-								<img class="nav-icon img3" src="/public/image/promotion_btn.webp" alt="Promo"></a>
+								<img class="nav-icon img3" src="/image/promotion_btn.webp" alt="Promo"></a>
 						</div>
 						<div class="nav-item d-flex flex-column align-items-center text-center column-height">
 							<a class="nav-link" rel="nofollow" alt="history"
 								href="https://www.ataskasino.com/en/sign-up/" target="_blank">
-								<img class="nav-icon img4" src="/public/image/livechat_btn.webp" alt="Live Chat"></a>
+								<img class="nav-icon img4" src="/image/livechat_btn.webp" alt="Live Chat"></a>
 						</div>
 
 
 						<div class="nav-item d-flex flex-column align-items-center text-center column-height">
 							<a class="nav-link" rel="nofollow" href="https://www.ataskasino.com/en/sign-up/"
 								alt="setting" target="_blank">
-								<img class="nav-icon img5" src="/public/image/setting_btn.webp" alt="Setting"></a>
+								<img class="nav-icon img5" src="/image/setting_btn.webp" alt="Setting"></a>
 						</div>
 
 					</div>
@@ -72,7 +72,7 @@ export default {
 }
 
 .navbar.fixed-bottom {
-	background-image: url('/public/image/bottom_bg.webp');
+	background-image: url('/image/bottom_bg.webp');
 	height: 5%;
 	background-size: cover;
 }
