@@ -31,15 +31,15 @@
 
 					<div class="icon_col">
 						<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
-							<img width="100%" src="/public/image/download_app.webp" alt="download">
+							<img width="100%" src="/image/download_app.webp" alt="download">
 						</a>
 
 						<a href="https://t.me/atas77channel" rel="nofollow">
-							<img width="100%" src="/public/image/subscribe_us.webp" alt="subscribe">
+							<img width="100%" src="/image/subscribe_us.webp" alt="subscribe">
 						</a>
 
 						<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
-							<img width="100%" src="/public/image/follow_us.webp" alt="facebook">
+							<img width="100%" src="/image/follow_us.webp" alt="facebook">
 						</a>
 					</div>
 				</div>
@@ -131,7 +131,7 @@ export default {
 
 <style scoped>
 .center_col {
-	background-image: url('/public/image/pink_bg.webp');
+	background-image: url('/image/pink_bg.webp');
 }
 
 
@@ -143,7 +143,7 @@ export default {
 
 .left {
 	height: 100%;
-	background-image: url('/public/image/pink_bg.webp');
+	background-image: url('/image/pink_bg.webp');
 
 }
 
@@ -155,7 +155,7 @@ export default {
 
 .right {
 	height: 100%;
-	background-image: url('/public/image/pink_bg.webp');
+	background-image: url('/image/pink_bg.webp');
 }
 
 

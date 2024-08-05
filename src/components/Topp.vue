@@ -119,7 +119,7 @@ export default {
 	/* 或者根据您的需要设置具体宽度 */
 	overflow: hidden;
 	white-space: nowrap;
-	background-image: url('/public/image/top_announce_bar.webp');
+	background-image: url('/image/top_announce_bar.webp');
 }
 
 .scrolling-text {
@@ -163,7 +163,7 @@ export default {
 }
 
 .span_bg {
-	background-image: url('/public/image/top_announce_bar.webp');
+	background-image: url('/image/top_announce_bar.webp');
 }
 
 .end {
@@ -171,7 +171,7 @@ export default {
 }
 
 .top_bg {
-	background-image: url('/public/image/top_dior88_bg.webp');
+	background-image: url('/image/top_dior88_bg.webp');
 	background-size: cover;
 	background-position: center;
 	height: 12vh;

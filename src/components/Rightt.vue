@@ -3,12 +3,12 @@
 		<div style="padding:10px ;" class="row ">
 			<div class="col-6">
 				<a href="https://www.ataskasino.com/login/" rel="nofollow">
-					<img width="100%" src="/public/image/login_btn.webp" alt="login">
+					<img width="100%" src="/image/login_btn.webp" alt="login">
 				</a>
 			</div>
 			<div class="col-6">
 				<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
-					<img width="100%" src="/public/image/register_btn.webp" alt="register">
+					<img width="100%" src="/image/register_btn.webp" alt="register">
 				</a>
 			</div>
 
@@ -23,13 +23,13 @@
 			</div>
 			<div class="col-6">
 				<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
-					<img width="100%" src="/public/image/deposit_btn.webp" alt="deposit">
+					<img width="100%" src="/image/deposit_btn.webp" alt="deposit">
 				</a>
 				<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
-					<img width="100%" src="/public/image/withdraw_btn.webp" alt="withdraw">
+					<img width="100%" src="/image/withdraw_btn.webp" alt="withdraw">
 				</a>
 				<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
-					<img width="100%" src="/public/image/refresh_btn.webp" alt="refresh">
+					<img width="100%" src="/image/refresh_btn.webp" alt="refresh">
 				</a>
 			</div>
 
@@ -38,7 +38,7 @@
 				<div class="row right2">
 					<div class="col-3 text_sportlive">
 						<div class="image_col">
-							<img width="90%" src="/public/image_webp/sportlive.webp" alt="sportlive1">
+							<img width="90%" src="/image_webp/sportlive.webp" alt="sportlive1">
 						</div>
 
 						<p>{{ $t('right.manutd') }}</p>
@@ -52,7 +52,7 @@
 					</div>
 					<div class="col-3 text_sportlive">
 						<div class="image_col">
-							<img width="90%" src="/public/image_webp/spo.webp" alt="sportlive2">
+							<img width="90%" src="/image_webp/spo.webp" alt="sportlive2">
 						</div>
 						<p>{{ $t('right.fulham') }}</p>
 					</div>
@@ -68,15 +68,15 @@
 
 			<div class="desktop">
 				<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
-					<img style="border-radius: 10px;" width="100%" src="/public/image/free-credit-RM50_D.webp"
+					<img style="border-radius: 10px;" width="100%" src="/image/free-credit-RM50_D.webp"
 						alt="Download-APK-free-credit-RM50-D">
 				</a>
 			</div>
 
 			<div class="mobile">
 				<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
-					<img style="border-radius: 10px;" width="100%"
-						src="/public/image/Download-APK-free-credit-RM50-M.webp" alt="Download-APK-free-credit-RM50-M">
+					<img style="border-radius: 10px;" width="100%" src="/image/Download-APK-free-credit-RM50-M.webp"
+						alt="Download-APK-free-credit-RM50-M">
 				</a>
 			</div>
 
@@ -99,7 +99,7 @@ export default {
 <style scoped>
 .bg_test {
 	align-content: center;
-	background-image: url(/public/image_webp/right_bg2.webp);
+	background-image: url(/image_webp/right_bg2.webp);
 	background-repeat: round;
 	text-align: -webkit-center;
 	width: 100%;

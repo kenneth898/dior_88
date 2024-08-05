@@ -8,27 +8,24 @@
 						<div class="carousel-inner">
 							<div class="carousel-item active" data-bs-interval="2000">
 								<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
-									<img width="100%" src="/public/image/banner1.webp" class="d-block w-100"
-										alt="banner1">
+									<img width="100%" src="/image/banner1.webp" class="d-block w-100" alt="banner1">
 								</a>
 							</div>
 							<div class="carousel-item" data-bs-interval="2000">
 								<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
-									<img width="100%" src="/public/image/banner2.webp" class="d-block w-100"
-										alt="banner2">
+									<img width="100%" src="/image/banner2.webp" class="d-block w-100" alt="banner2">
 								</a>
 							</div>
 							<div class="carousel-item" data-bs-interval="2000">
 								<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
-									<img width="100%" src="/public/image/banner3.webp" class="d-block w-100"
-										alt="banner3">
+									<img width="100%" src="/image/banner3.webp" class="d-block w-100" alt="banner3">
 								</a>
 							</div>
 						</div>
 
 						<div class="bonus">
 							<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
-								<img style="border-radius:10px ;" width="100%" src="/public/image/bonus388.webp"
+								<img style="border-radius:10px ;" width="100%" src="/image/bonus388.webp"
 									alt="bonus388">
 							</a>
 						</div>
@@ -37,34 +34,34 @@
 							<div class="mobile">
 								<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
 									<img style="border-radius:10px ;" width="100%"
-										src="/public/image/Daily_unlimited_bonus_M.webp" alt="Daily_unlimited_bonus_M">
+										src="/image/Daily_unlimited_bonus_M.webp" alt="Daily_unlimited_bonus_M">
 								</a>
 							</div>
 							<!--button bg-->
 							<div class="btn_bg">
 								<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
-									<img width="100%" src="/public/image/btn_bg.webp" alt="btn_bg">
+									<img width="100%" src="/image/btn_bg.webp" alt="btn_bg">
 								</a>
 
 								<div style="position: absolute; bottom: 9px;" class="row">
 									<div class="col-6 btn_left">
 										<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
-											<img width="95%" src="/public/image/share_btn.webp" alt="share">
+											<img width="95%" src="/image/share_btn.webp" alt="share">
 										</a>
 									</div>
 									<div class="col-6 btn_right">
 										<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
-											<img width="95%" src="/public/image/downline_btn.webp" alt="downline">
+											<img width="95%" src="/image/downline_btn.webp" alt="downline">
 										</a>
 									</div>
 									<div class="col-6 btn_left">
 										<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
-											<img width="95%" src="/public/image/copy_btn.webp" alt="copy">
+											<img width="95%" src="/image/copy_btn.webp" alt="copy">
 										</a>
 									</div>
 									<div class="col-6 btn_right">
 										<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
-											<img width="95%" src="/public/image/more_btn.webp" alt="more">
+											<img width="95%" src="/image/more_btn.webp" alt="more">
 										</a>
 									</div>
 
@@ -74,7 +71,7 @@
 							<div class="desktop">
 								<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
 									<img style="border-radius:10px ;" width="100%"
-										src="/public/image/Daily_unlimited_bonus_D.webp" alt="Daily_unlimited_bonus_D">
+										src="/image/Daily_unlimited_bonus_D.webp" alt="Daily_unlimited_bonus_D">
 								</a>
 							</div>
 
