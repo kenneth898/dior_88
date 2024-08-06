@@ -1,4 +1,9 @@
 <template>
+	<a href="//www.dmca.com/Protection/Status.aspx?ID=bd071465-17bf-4b90-b6e5-d51ffeb2271e"
+		title="DMCA.com Protection Status" class="dmca-badge"> <img
+			src="https://images.dmca.com/Badges/dmca_copyright_protected150c.png?ID=bd071465-17bf-4b90-b6e5-d51ffeb2271e"
+			alt="DMCA.com Protection Status" /></a>
+
 
 	<p style="font-weight: 700;">
 		{{ $t('Footer.title') }}
