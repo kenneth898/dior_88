@@ -113,7 +113,7 @@
 		<b>{{ $t('Footer.4') }}</b>
 		{{ $t('Footer.5') }}
 	</p>
-	<br>
+
 	<p>
 		{{ $t('Footer.6') }}|
 		{{ $t('Footer.7') }}|
