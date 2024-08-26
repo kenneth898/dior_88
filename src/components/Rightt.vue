@@ -2,12 +2,12 @@
 	<div style="height: 100%;" class="container-fluid">
 		<div style="padding:10px ;" class="row ">
 			<div class="col-6">
-				<a href="https://www.ataskasino.com/login/" rel="nofollow">
+				<a href="https://www.ataskasino1.com/login/" rel="nofollow">
 					<img width="100%" src="/image/login_btn.webp" alt="login">
 				</a>
 			</div>
 			<div class="col-6">
-				<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
+				<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
 					<img width="100%" src="/image/register_btn.webp" alt="register">
 				</a>
 			</div>
@@ -22,13 +22,13 @@
 				<p><b>RM50.00</b></p>
 			</div>
 			<div class="col-6">
-				<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
+				<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
 					<img width="100%" src="/image/deposit_btn.webp" alt="deposit">
 				</a>
-				<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
+				<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
 					<img width="100%" src="/image/withdraw_btn.webp" alt="withdraw">
 				</a>
-				<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
+				<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
 					<img width="100%" src="/image/refresh_btn.webp" alt="refresh">
 				</a>
 			</div>
@@ -47,7 +47,7 @@
 						<p>{{ $t('right.starttime') }}</p>
 						<p>17 Aug 2024</p>
 						<p class="sportlive_text text_sportlive">03:00</p>
-						<a class="betnow" href="https://www.ataskasino.com/login/" rel="nofollow">{{
+						<a class="betnow" href="https://www.ataskasino1.com/login/" rel="nofollow">{{
 							$t('right.betnow') }}</a>
 					</div>
 					<div class="col-3 text_sportlive">
@@ -59,7 +59,7 @@
 				</div>
 
 				<div class="showmore_col">
-					<a href="https://www.ataskasino.com/en/sport-live/" rel="nofollow">
+					<a href="https://www.ataskasino1.com/en/sport-live/" rel="nofollow">
 						<p class="showmore">{{ $t('right.showmore') }}</p>
 					</a>
 				</div>
@@ -67,14 +67,14 @@
 			</div>
 
 			<div class="desktop">
-				<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
+				<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
 					<img style="border-radius: 10px;" width="100%" src="/image/free-credit-RM50_D.webp"
 						alt="Download-APK-free-credit-RM50-D">
 				</a>
 			</div>
 
 			<div class="mobile">
-				<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
+				<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
 					<img style="border-radius: 10px;" width="100%" src="/image/Download-APK-free-credit-RM50-M.webp"
 						alt="Download-APK-free-credit-RM50-M">
 				</a>

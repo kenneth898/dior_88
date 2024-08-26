@@ -108,7 +108,7 @@
 
 	<p>
 		{{ $t('Footer.1') }}
-		| <a style="font-weight: 900; color:#800000;" href="https://www.ataskasino.com/">{{ $t('Footer.2') }}</a> |
+		| <a style="font-weight: 900; color:#800000;" href="https://www.ataskasino1.com/">{{ $t('Footer.2') }}</a> |
 		{{ $t('Footer.3') }}
 		<b>{{ $t('Footer.4') }}</b>
 		{{ $t('Footer.5') }}
@@ -118,7 +118,7 @@
 		{{ $t('Footer.6') }}|
 		{{ $t('Footer.7') }}|
 		{{ $t('Footer.8') }}
-		<a style="font-weight: 900; color:#800000;" href="https://www.atascasinobet.com/">{{ $t('Footer.9') }}</a>
+		<a style="font-weight: 900; color:#800000;" href="https://www.atascasinobet1.com/">{{ $t('Footer.9') }}</a>
 		{{ $t('Footer.10') }}
 		<b>{{ $t('Footer.11') }}</b>
 		{{ $t('Footer.12') }}
