@@ -108,9 +108,9 @@
 
 	<p>
 		{{ $t('Footer.1') }}
-		| <a style="font-weight: 900; color:#800000;" href="https://www.ataskasino1.com/">{{ $t('Footer.2') }}</a> |
+		| <a :href="link" style="font-weight: 900; color:#800000;">{{ $t('Footer.2') }}</a> |
 		{{ $t('Footer.3') }}
-		<b>{{ $t('Footer.4') }}</b>
+		<a :href="link"><b>{{ $t('Footer.4') }}</b></a>
 		{{ $t('Footer.5') }}
 	</p>
 
@@ -118,9 +118,9 @@
 		{{ $t('Footer.6') }}|
 		{{ $t('Footer.7') }}|
 		{{ $t('Footer.8') }}
-		<a style="font-weight: 900; color:#800000;" href="https://www.atascasinobet1.com/">{{ $t('Footer.9') }}</a>
+		<a :href="link2" style="font-weight: 900; color:#800000;">{{ $t('Footer.9') }}</a>
 		{{ $t('Footer.10') }}
-		<b>{{ $t('Footer.11') }}</b>
+		<a :href="link2"><b>{{ $t('Footer.11') }}</b></a>
 		{{ $t('Footer.12') }}
 	</p>
 
@@ -128,8 +128,49 @@
 
 </template>
 <script>
+import axios from 'axios';
 export default {
-	name: 'Content'
+	name: 'Content',
+	data() {
+		return {
+			link: "",
+			link2: ""
+		}
+	},
+	methods: {
+		async calllink() {
+			try {
+				const response = await axios.get('https://seo.mobileapplab.online/api/atas?fields[0]=ataskasino_com', {
+					headers: {
+						"Authorization": "Bearer " + "1c4db3188ab2e9a077928920d9cc8d3322d15f9751bc2054a5cb70008df79cf3e3a4dd005a75a1f2db40eb953292ee10ef699693e96e9d77a98439f438ee6a6e6805a8a955e992f082b9e6118a4345e1ed18438ff9789edf9ed1dd58af45ee6669a7519a1291746959ff45bc2054b7f408b5da5ea8cd04d588a2704b7e218021",
+					}
+				});
+				this.link = response.data.data.attributes.ataskasino_com;
+
+				console.log(this.link);
+			} catch (error) {
+				console.error(error);
+			}
+		},
+		async calllink2() {
+			try {
+				const response = await axios.get('https://seo.mobileapplab.online/api/atas?fields[0]=atascasinobet_com', {
+					headers: {
+						"Authorization": "Bearer " + "1c4db3188ab2e9a077928920d9cc8d3322d15f9751bc2054a5cb70008df79cf3e3a4dd005a75a1f2db40eb953292ee10ef699693e96e9d77a98439f438ee6a6e6805a8a955e992f082b9e6118a4345e1ed18438ff9789edf9ed1dd58af45ee6669a7519a1291746959ff45bc2054b7f408b5da5ea8cd04d588a2704b7e218021",
+					}
+				});
+				this.link2 = response.data.data.attributes.atascasinobet_com;
+
+				console.log(this.link2);
+			} catch (error) {
+				console.error(error);
+			}
+		},
+	},
+	mounted() {
+		this.calllink();
+		this.calllink2();
+	}
 }
 </script>
 <style>

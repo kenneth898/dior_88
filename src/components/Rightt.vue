@@ -2,12 +2,12 @@
 	<div style="height: 100%;" class="container-fluid">
 		<div style="padding:10px ;" class="row ">
 			<div class="col-6">
-				<a href="https://www.ataskasino1.com/login/" rel="nofollow">
+				<a :href="link + 'login'" rel="nofollow">
 					<img width="100%" src="/image/login_btn.webp" alt="login">
 				</a>
 			</div>
 			<div class="col-6">
-				<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
+				<a :href="link + 'en/sign-up'" rel="nofollow">
 					<img width="100%" src="/image/register_btn.webp" alt="register">
 				</a>
 			</div>
@@ -22,13 +22,13 @@
 				<p><b>RM50.00</b></p>
 			</div>
 			<div class="col-6">
-				<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
+				<a :href="link + 'en/sign-up'" rel="nofollow">
 					<img width="100%" src="/image/deposit_btn.webp" alt="deposit">
 				</a>
-				<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
+				<a :href="link + 'en/sign-up'" rel="nofollow">
 					<img width="100%" src="/image/withdraw_btn.webp" alt="withdraw">
 				</a>
-				<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
+				<a :href="link + 'en/sign-up'" rel="nofollow">
 					<img width="100%" src="/image/refresh_btn.webp" alt="refresh">
 				</a>
 			</div>
@@ -47,7 +47,7 @@
 						<p>{{ $t('right.starttime') }}</p>
 						<p>17 Aug 2024</p>
 						<p class="sportlive_text text_sportlive">03:00</p>
-						<a class="betnow" href="https://www.ataskasino1.com/login/" rel="nofollow">{{
+						<a :href="link + 'login'" class="betnow" rel="nofollow">{{
 							$t('right.betnow') }}</a>
 					</div>
 					<div class="col-3 text_sportlive">
@@ -59,7 +59,7 @@
 				</div>
 
 				<div class="showmore_col">
-					<a href="https://www.ataskasino1.com/en/sport-live/" rel="nofollow">
+					<a :href="link + 'en/sport-live/'" rel="nofollow">
 						<p class="showmore">{{ $t('right.showmore') }}</p>
 					</a>
 				</div>
@@ -67,14 +67,14 @@
 			</div>
 
 			<div class="desktop">
-				<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
+				<a :href="link + 'en/sign-up'" rel="nofollow">
 					<img style="border-radius: 10px;" width="100%" src="/image/free-credit-RM50_D.webp"
 						alt="Download-APK-free-credit-RM50-D">
 				</a>
 			</div>
 
 			<div class="mobile">
-				<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
+				<a :href="link + 'en/sign-up'" rel="nofollow">
 					<img style="border-radius: 10px;" width="100%" src="/image/Download-APK-free-credit-RM50-M.webp"
 						alt="Download-APK-free-credit-RM50-M">
 				</a>
@@ -91,8 +91,33 @@
 </template>
 
 <script>
+import axios from 'axios';
 export default {
 	name: 'Right',
+	data() {
+		return {
+			link: ""
+		}
+	},
+	methods: {
+		async calllink() {
+			try {
+				const response = await axios.get('https://seo.mobileapplab.online/api/atas?fields[0]=ataskasino_com', {
+					headers: {
+						"Authorization": "Bearer " + "1c4db3188ab2e9a077928920d9cc8d3322d15f9751bc2054a5cb70008df79cf3e3a4dd005a75a1f2db40eb953292ee10ef699693e96e9d77a98439f438ee6a6e6805a8a955e992f082b9e6118a4345e1ed18438ff9789edf9ed1dd58af45ee6669a7519a1291746959ff45bc2054b7f408b5da5ea8cd04d588a2704b7e218021",
+					}
+				});
+				this.link = response.data.data.attributes.ataskasino_com;
+
+				console.log(this.link);
+			} catch (error) {
+				console.error(error);
+			}
+		},
+	},
+	mounted() {
+		this.calllink();
+	}
 };
 </script>
 
