@@ -30,7 +30,7 @@
 					</div>
 
 					<div class="icon_col">
-						<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
+						<a :href="link + 'en/sign-up'" rel="nofollow">
 							<img width="100%" src="/image/download_app.webp" alt="download">
 						</a>
 
@@ -38,7 +38,7 @@
 							<img width="100%" src="/image/subscribe_us.webp" alt="subscribe">
 						</a>
 
-						<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
+						<a :href="link + 'en/sign-up'" rel="nofollow">
 							<img width="100%" src="/image/follow_us.webp" alt="facebook">
 						</a>
 					</div>
@@ -73,6 +73,7 @@ import Right from '../components/Rightt.vue';
 import Menu1 from '../components/contenttt.vue';
 import Content from '@/components/Menuu.vue';
 import Notice from '@/components/noticee.vue';
+import { mapGetters } from 'vuex';
 
 export default {
 	name: 'Home',
@@ -110,6 +111,7 @@ export default {
 		};
 	},
 	computed: {
+		...mapGetters(['link']),
 		currentComponent() {
 			return this.menuItems[this.activeIndex].component;
 		}
@@ -126,6 +128,9 @@ export default {
 			}
 		},
 	},
+	mounted() {
+		this.$store.dispatch('fetchLink');
+	}
 };
 </script>
 

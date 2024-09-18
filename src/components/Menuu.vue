@@ -110,8 +110,7 @@
 		{{ $t('Footer.1') }}
 		| <a :href="link" style="font-weight: 900; color:#800000;">{{ $t('Footer.2') }}</a> |
 		{{ $t('Footer.3') }}
-		<a :href="link"><b>{{ $t('Footer.4') }}</b></a>
-		{{ $t('Footer.5') }}
+
 	</p>
 
 	<p>
@@ -120,7 +119,7 @@
 		{{ $t('Footer.8') }}
 		<a :href="link2" style="font-weight: 900; color:#800000;">{{ $t('Footer.9') }}</a>
 		{{ $t('Footer.10') }}
-		<a :href="link2"><b>{{ $t('Footer.11') }}</b></a>
+		<a :href="link2" style="font-weight: 900; color:#800000;">{{ $t('Footer.11') }}</a>
 		{{ $t('Footer.12') }}
 	</p>
 
