@@ -123,6 +123,13 @@
 		{{ $t('Footer.12') }}
 	</p>
 
+	<p>
+		{{ $t('thirdFooter.1') }}
+		<a :href="link" style="font-weight: 900; color:#800000;">{{ $t('thirdFooter.2') }}</a>
+		{{ $t('thirdFooter.3') }}
+
+	</p>
+
 
 
 </template>
